@@ -313,7 +313,7 @@
 
 @media screen and (max-width: 500px){
 
-    @media screen and (min-height: 780px){
+    @media screen and (min-height: 750px){
         body{
             height: 450vh;
             border: 5px solid red;
