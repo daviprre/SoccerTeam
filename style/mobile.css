@@ -1,0 +1,367 @@
+@media screen and (max-width: 1225px){
+    header .Principal-logo1{
+
+        width: 30%;
+    }
+
+}
+
+@media screen and (max-width: 1150px){
+    header .Principal-menu{
+        width: 30%;
+    }
+
+
+    .boards-container .board2 .boardstore-product{
+        height: 60%;
+    }
+
+
+}
+
+@media screen and (max-width: 950px){
+    header .Principal-logo1{
+
+        width: 40%;
+    }
+    
+    header .Principal-menu{
+        display: none;
+    }
+
+    header .Principal-menu-hamburguer{
+        width: 30%;
+        display: flex;
+        justify-content: end;
+        
+    }
+
+
+}
+
+@media screen and (max-width: 900px){
+
+    body{
+        height: 170vh;
+    }
+
+    .boards-container .board2 .boardstore-product{
+        height: 80%;
+    }
+
+
+}
+
+
+@media screen and (max-width: 820px){
+
+    .boards-container{
+        flex-direction: column;
+    }
+
+    .boards-container .board1{
+        width: 100%;
+        height: 30%;
+        flex-direction: row;
+    
+    }
+
+    .boards-container .board1 .boardproduct-option{
+        width: 20%;
+        height: 60%;
+        border: 1px solid black;
+        background-image: linear-gradient(to right bottom, #ffffff, #ffffff, #ffffff);
+        -webkit-box-shadow: 0px 0px 25px -6px rgba(182,1,36,1);
+        -moz-box-shadow: 0px 0px 25px -6px rgba(182,1,36,1);
+        box-shadow: 0px 0px 25px -6px rgba(182,1,36,1);
+    }
+
+    .boards-container .board1 .boardproduct-option h3{
+        font-family: 'Fraunces', serif;
+        font-size: 1.8rem;
+        color: #000000;
+        text-transform: uppercase;
+    }
+    
+
+    .boards-container .board2{
+        border-left: 0;
+        width: 100%;
+        height: 70%;
+    }
+
+    @media screen and (min-height: 700px){
+        body{
+            height: 250vh;
+        }
+
+        header{
+            height: 20vh;
+        }
+
+        .boards-container{
+            height: 210vh;
+        }
+
+
+        .boards-container .board1{
+            height: 10%;
+            margin-bottom: 15vh;
+
+        }
+
+        .boards-container .board2 .boardstore-product{
+            border: 1px solid wheat;
+            width: 40%;
+            height: 40%;
+        }
+
+        footer{ 
+            height: 20vh;
+        }
+    }
+
+
+
+    
+}
+
+@media screen and (max-width: 700px){
+    
+    body{
+        height: 300vh;
+    }
+
+    header {
+        height: 20vh;
+    
+    }
+
+    .boards-container{
+        height: 260vh;
+    }
+    
+    .boards-container .board1{
+        height: 20%;
+    }
+
+    .boards-container .board2{
+        height: 80%;
+    }
+
+    .boards-container .board2 .boardstore-product{
+        width: 30%;
+        height: 40%;
+    }
+
+    footer{
+        height: 20vh;
+    }
+}
+
+@media screen and (max-width: 700px){
+
+    @media screen and (max-height: 400px){
+        body{
+            height: 350vh;
+        }
+
+        header {
+            height: 20vh;
+        }
+
+        .boards-container{
+            height: 310vh;
+        }
+
+        footer{
+            height: 20vh;
+        }
+
+        
+    }
+    
+}
+
+@media screen and (max-width: 700px){
+
+    @media screen and (min-height: 500px){
+        body{
+            height: 350vh;
+        }
+
+        header {
+            height: 20vh;
+        }
+
+        header .Principal-logo1{
+            height: 60%;
+        }
+        
+        header .Principal-logo2{
+            height: 40%;
+            
+        }
+
+        .boards-container{
+            height: 310vh;
+        }
+
+        .boards-container .board1{
+            height: 10%;
+        }
+    
+        .boards-container .board2{
+            height: 90%;
+        }
+
+        .boards-container .board2 .boardstore-product{
+            width: 45%;
+            height: 35%;
+        }
+
+        footer{
+            height: 20vh;
+            flex-direction: column;
+        }        
+
+        footer .footer-left{
+            order: 1;
+            width: 80%;
+        }
+        
+        footer .footer-center{
+            order: 3;
+            width: 100%;
+        }
+    
+        footer .footer-right{
+            order: 2;
+            width: 100%;
+        }
+    }
+
+    @media screen and (min-height: 700px){
+        body{
+            height: 250vh;   
+        }
+
+        header {
+            height: 20vh;
+        }
+        .boards-container{
+            height: 210vh;
+        }
+
+        footer{
+            height: 20vh;
+        }
+    }
+    
+}
+
+@media screen and (max-width: 600px){
+
+    header .Principal-logo1{
+        height: 30%;
+    }
+
+    header .Principal-logo2{
+        height: 30%;
+    }
+
+    header .Principal-menu-hamburguer{
+        height: 30%;
+    }
+
+
+}
+
+@media screen and (max-width: 500px){
+    body{
+        height: 650vh;
+    }
+
+    header{
+        height: 20vh;
+    }
+
+    .boards-container{
+        height: 610vh;
+
+    }
+
+    .boards-container .board1{
+        height: 6%;
+        flex-wrap: wrap;
+    }
+
+    .boards-container .board1 .boardproduct-option{
+        width: 40%;
+        height: 30%;
+    }
+
+    footer{
+        height: 20vh;
+    }
+
+    .boards-container .board2 .boardstore-product{
+        width: 80%;
+        height: 20%;
+    }
+}
+
+@media screen and (max-width: 500px){
+
+    @media screen and (min-height: 800px){
+        body{
+            height: 420vh;
+        }
+    
+        header{
+            height: 20vh;
+        }
+    
+        .boards-container{
+            height: 380vh;
+            
+        }
+        
+        footer{
+            height: 20vh;
+        }
+    
+        .boards-container .board2 .boardstore-product{
+            width: 80%;
+            height: 20%;
+        }
+    
+    }
+
+    @media screen and (min-height: 700px){
+        body{
+            height: 400vh;
+        }
+    
+        header{
+            height: 20vh;
+        }
+    
+        .boards-container{
+            height: 360vh;
+            
+        }
+        
+        footer{
+            height: 20vh;
+        }
+    
+        .boards-container .board2 .boardstore-product{
+            width: 80%;
+            height: 20%;
+        }
+    
+    }
+
+
+    }

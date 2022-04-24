@@ -76,6 +76,13 @@ header .Principal-menu a{
     text-decoration: none;
 }
 
+header .Principal-menu-hamburguer{
+    height: 50%;
+    width: auto;
+    display: none;
+    
+}
+
 
 
 /**************************************/
@@ -85,6 +92,7 @@ header .Principal-menu a{
     height: 70%;
     box-sizing: border-box;
     display: flex;
+    box-sizing: border-box;
 }
 
 .boards-container .board1{
@@ -122,6 +130,7 @@ header .Principal-menu a{
     justify-content: space-evenly;
     align-items: flex-start;
     padding: 1%;
+    box-sizing: border-box;
     
 }
 
@@ -190,6 +199,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    
 }
 
 footer .footer-left{
