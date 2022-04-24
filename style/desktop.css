@@ -101,6 +101,7 @@ header .Principal-menu-hamburguer{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    box-sizing: border-box;
 
 }
 
