@@ -279,7 +279,7 @@
 
 @media screen and (max-width: 500px){
     body{
-        height: 650vh;
+        height: 600vh;
     }
 
     header{
@@ -287,7 +287,7 @@
     }
 
     .boards-container{
-        height: 610vh;
+        height: 560vh;
 
     }
 
@@ -313,9 +313,11 @@
 
 @media screen and (max-width: 500px){
 
-    @media screen and (min-height: 800px){
+    @media screen and (min-height: 780px){
         body{
-            height: 420vh;
+            height: 450vh;
+            border: 5px solid red;
+
         }
     
         header{
@@ -323,7 +325,7 @@
         }
     
         .boards-container{
-            height: 380vh;
+            height: 410vh;
             
         }
         
